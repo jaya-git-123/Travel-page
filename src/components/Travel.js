@@ -53,7 +53,7 @@ export default function Component() {
                 <img src={post.image} alt={post.title} className="post-image" />
                 <div className="post-content">
                   <h3>{post.title}</h3>
-                  <a href="#" className="read-more">Read more</a>
+                  <p className="read-more">Read more</p>
                 </div>
               </motion.div>
             ))}
@@ -74,7 +74,7 @@ export default function Component() {
               medicinal plants and the delicate balance of this complex ecosystem. We learned about conservation
               efforts and the importance of preserving this vital "lung of the Earth" for future generations.
             </p>
-            <a href="#" className="read-more">Continue reading...</a>
+            <p className="read-more">Continue reading...</p>
           </div>
         </section>
 

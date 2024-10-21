@@ -217,6 +217,7 @@ footer {
 .read-more {
   color: #3498db;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .read-more:hover {
